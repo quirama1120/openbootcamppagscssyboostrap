@@ -1,0 +1,17 @@
+$color-main: #A5A8B3;
+
+.card {
+    width: 12rem;
+    .card-body {
+        width: auto;
+        height: auto;
+    }
+}
+i {
+    color: $color-main;
+    font-size: xx-small;
+    padding: 0.5rem;
+    button .btn.btn-sm.btn-primary {
+        margin-left: 0.4rem;
+    }
+    }

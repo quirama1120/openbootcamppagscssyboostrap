@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/proyecto-final-scss-boostrap/css/index.css" />
+    <link rel="stylesheet" href="/proyecto-final-sass-boostrap/css/index.css" />
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -12,14 +12,118 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <title>proyecto replicando pagina web</title>
   </head>
-  <body></body>
-  <!-- JavaScript Bundle with Popper -->
+  <body>
+    <header>
+      <div class="header-home">
+        <div>
+          <h4>Inicio</h4>
+        </div>
+        <div class="header-profile">
+          <i class="bi bi-calendar"></i>
+          <i class="bi bi-bell"></i>
+          <button
+            type="button"
+            class="btn btn-sm btn-primary"
+            style="margin-left: 1rem"
+            data-bs-toggle="popover"
+            data-bs-title="Tema de la interfaz"
+            data-bs-content="Datos de tu perfil "
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-person-circle"
+              viewbox="0 0 16 16"
+            >
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+              <path
+                fill-rule="evenodd"
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+              ></path>
+            </svg>
+            Usuario
+          </button>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="card">
+        <img
+          src="https://storage.googleapis.com/openvitae-prod/cursos/ckwnemhh600060452h3qa8hep.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=openvitaebeta%40wired-coda-333713.iam.gserviceaccount.com%2F20221020%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20221020T061651Z&X-Goog-Expires=518400&X-Goog-SignedHeaders=host&X-Goog-Signature=3767512a7a627fc693b796288b6060425070f4f673d3a456fd92be9fec0f7b73e4fe40d248c64216134877324a218b6b01495a502037a291b171095cce4c2d836eff1628ffccb3f2e19b874038f4d922f812ce471bb077a99ede2922f358762f2aefe8026f4794f2b40a0c3868b043c084e9b4d34c29e4b304f17a003788be17d6deb17b1ffda94fd718c58161f5cbcdab63860919b71a81f61c257fffe1c3a702aa23795280b25423dbba8fb0ccb9566133b8ad89753636fb2a841285a87c44db304acfdcc628973e626dc74c7e29345066f1072bab1a9694510fb4888ffe827268ce500e878bfe14c96f8bba90a7731256d4e87ff2d395265c88d987bec34f"
+          class="card-img-top"
+          alt="react image"
+        />
+        <div class="card-body">
+          <h5 class="card-title">ReactJS</h5>
+          <p class="card-text">29 modulos.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="https://storage.googleapis.com/openvitae-prod/cursos/ckwneqwac000g0452b0yk4cxl.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=openvitaebeta%40wired-coda-333713.iam.gserviceaccount.com%2F20221020%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20221020T061602Z&X-Goog-Expires=518400&X-Goog-SignedHeaders=host&X-Goog-Signature=4e7ef32381b5fecde2f505539e6776676afb5cbe5a1c6f1bd16d736b05a4755473263fac82b8e4f6667bd91e296812583ea2270afe4db5fc39f557a445b3000257067dc57f86e334c64eca5a92718030c57adbab8f8af3ae5ce5bfa0eaef5cf8eb850adc0a45af1359fd7c68b1d4413ae50d86c5757cd1ffa2ebda64dc3b9a5ec06ea41c9f09d96fd85e55a025020bb93b504bb5cef145c37dcf338a4d63009993986c25693f7c783245b7dd3660fb0564dcf5a7e567fbc51fb9ed41f1925d9a8d97b4280dda6ff96909653feb61b1cac39eb679929d5b281bb097788223be6e551507fe3482f4cd447d8cf46de12b2e0cdbd139438db4cf0774c77d097075d8"
+          class="card-img-top"
+          alt="react image"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Introducción a la programación</h5>
+          <p class="card-text">11 módulos.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="https://storage.googleapis.com/openvitae-prod/cursos/ckwnet266000i04525t6a0foh.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=openvitaebeta%40wired-coda-333713.iam.gserviceaccount.com%2F20221020%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20221020T061713Z&X-Goog-Expires=518400&X-Goog-SignedHeaders=host&X-Goog-Signature=938a769814bcb00d20ecadd5c71b50ed4099d3f99fd516c1458d795c110fa13e3791c87ab92e0fe400f06546875c05bbde28ae91ce79644c8e23da6d34427dc773f9bcb8b5a8dab37cb99db39165b8d39dc11c3a1fefa68344985213a0a87fa6ea0ba6fe2fe01ec5019e8436891c2760bbcb3e4bb1883f1bd97acefdcbd4e5dd929b0dcfc1ac608ed3c9018c5d659ecf0d848cef678169dd9cf6a483d7a1abe5229d8efc80d6d6f5a82b1fb657e4ce78c8abe6c8bf39937f2f99f6d682829941a0c5685054109d2f3d666a1d45bd99df3ef17d2caf9801112948ba19c5c00e49a1f01b4825b29ffc02647f80a4af108f1d0d30f3ea684f1abff7a2d3a3ed913d"
+          class="card-img-top"
+          alt="react image"
+        />
+        <div class="card-body">
+          <h5 class="card-title">ReactJS Avanzado</h5>
+          <p class="card-text">28 módulos.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="https://storage.googleapis.com/openvitae-prod/cursos/ckwnek1ee0003045230j9g2q7.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=openvitaebeta%40wired-coda-333713.iam.gserviceaccount.com%2F20221020%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20221020T061731Z&X-Goog-Expires=518401&X-Goog-SignedHeaders=host&X-Goog-Signature=350747c8c656d0faba996d9421e5a366ce192095b8237faf91db386665bc26dbd30ca8186292e06e9c17e315d6951dea462a2597494a350f4aa915ac2c149bb511984a7b167719ee443c7f25fd6a4629104fc160b8189625fc04ca99904279ab5a78a858cc939f7dd14939634702f466d624ad59cd97925c30e232786601d1f35703703ceaa209fea2e892e553057c217d450d3e7bea01f17842bc9a691a5c615b36f32353fa18011f63ca270ce44bebd26478248ac7fa82c510f8ea591b9376289098ce52570ce4e06e5ecd368fec79e36aae8ef3c2bde306d646392ddb2e864272d8cad63bccc3e8a161b30efddc7bd5c9c473f2630279ead2df211c7ac1df"
+          class="card-img-top"
+          alt="react image"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Java Básico</h5>
+          <p class="card-text">11 módulos.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-text">
+      <h5>¿En qué fase de OpenBootcamp estás?</h5>
+        <p>
+          Open Bootcamp ha nacido para reinventar la formación especializada.
+          Nuestra misión es que puedas tener acceso a la formación tecnológica
+          de máxima calidad sin coste alguno. Con nuestra formación, podrás
+          acceder a empleos que se ajusten a tus necesidades. Dependiendo del
+          momento en el que te encuentres, podrás elegir entre nuestras dos
+          fases
+        </p>
+      
+    </div>
+  </body>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"
   ></script>
+  <script>
+    const popoverTriggerList = document.querySelectorAll(
+      '[data-bs-toggle="popover"]'
+    );
+    const popoverList = [...popoverTriggerList].map(
+      (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
+    );
+  </script>
 </html>

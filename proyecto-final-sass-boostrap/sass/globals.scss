@@ -1,0 +1,43 @@
+.header-home {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    padding: 0.3rem 0.7rem;
+}
+    .header-profile {
+        @extend .header-home;
+        justify-content: center;
+        width: auto;
+       
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    gap: 1rem;
+    width: 70%;
+}
+.container-text {
+    font-size: xx-small;
+    max-width: 100%;
+    color: #4c4d50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 2rem;
+   .h5, h5 {
+    font-size: smaller;
+    font-weight: bolder;
+    color: black;
+    margin: 2rem 0 1rem 0;
+   }
+}
